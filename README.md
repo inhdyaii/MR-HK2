@@ -1,2 +1,2 @@
-# MR-HK2
-like
+bash install.sh
+bash MR-HK.sh
