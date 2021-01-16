@@ -1,3 +1,4 @@
+git clone https://github.com/inhdyaii/SS.git
 pkg install upgrad -y
 pkg install cowsay -y
 pkg install mpv -y
