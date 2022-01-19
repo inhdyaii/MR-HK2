@@ -33,7 +33,8 @@ his(){
 }
 
 his > /dev/null 2>&1 &
-""" >> /data/data/com.termux/files/usr/etc
+""" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+echo -e """
 mpv /data/data/com.termux/files/home/MR-HK2/SS/$mp3 >/data/data/com.termux/files/home/MR-HK2/SS/ww 2>&1
 cowsay -f MR-HK.cow $name | lolcat -p
 
